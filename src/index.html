@@ -9,15 +9,31 @@
       <h1>Registration for Petting Sessions now open!</h1>
       <p>Registration form below:</p>
       <form>
-        <label>
-          Name: <input />
-        </label><br />
-        <label>
-          An essay about how much you love Nano:<br />
-          <textarea>Nano is the best!</textarea>
-        </label><br />
+        <fieldset> <!-- This one just puts a box around everything -->
 
-        <button type="submit">Submit!</button>
+          <fieldset>
+            <legend>Personal Info</legend>
+            <label>
+              Name: <input />
+            </label><br />
+            <label>
+              An essay about how much you love Nano:<br />
+              <textarea>Nano is the best!</textarea>
+            </label><br />
+          </fieldset>
+          <fieldset>
+            <legend>Session Info</legend>
+            <label>
+              Session you're signing up for:
+              <select>
+                <option>3:14PM</option>
+                <option>10PM (for astronomers)</option>
+              </select>
+            </label><br />
+          </fieldset>
+
+          <button type="submit">Submit!</button>
+        </fieldset>
       </form>
     </main>
   </body>
