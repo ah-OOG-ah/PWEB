@@ -85,6 +85,8 @@ summary {
 }
 
 footer {
-    padding: 20px;
-    margin: 5px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    background-color: #212121;
 }
