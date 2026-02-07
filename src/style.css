@@ -1,0 +1,47 @@
+.navbutton {
+    display: inline-block;
+}
+
+#topNav {
+    align-content: center;
+}
+
+#topbar {
+    display: block flex;
+    flex-direction: row;
+    align-content: center;
+    height: 10vh;
+
+}
+
+html, body {
+    height: 100%;
+    background-color: #212121;
+    color: #E5C99B;
+}
+
+main {
+    display: block flex;
+    height: 100%;
+    padding: 10px;
+}
+
+#mainPane {
+    padding: 10px;
+}
+
+#sidebar {
+    background-color: #524B40;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    list-style: none;
+    padding: 10px;
+}
+
+.project {
+    padding: 0;
+    margin: 0;
+
+}
