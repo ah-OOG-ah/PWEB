@@ -14,8 +14,17 @@
 
 .navbutton {
     display: inline-block;
-    padding: 0.5vh;
+    margin-left: 0.5vh;
+    padding: 2px 5px;
     font-family: "JetBrains Mono Medium", monospace;
+    text-decoration: none;
+    color: #E5C99B;
+    border: 2px solid #E5C99B;
+}
+
+#activeNavButton {
+    background-color: #E5C99B;
+    color: #212121;
 }
 
 #logo {
