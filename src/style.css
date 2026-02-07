@@ -41,14 +41,14 @@ html, body {
 }
 
 main {
-    display: block flex;
-    height: 100%;
-    padding: 10px;
-}
-
-#mainPane {
     padding: 10px;
     font-family: "Fira Sans", sans-serif;
+}
+
+#notTheMainPane {
+    display: block flex;
+    flex-direction: row;
+    height: 100%;
 }
 
 #sidebar {
@@ -58,12 +58,16 @@ main {
     flex-direction: column;
     align-content: center;
     list-style: none;
-    padding: 10px;
+    padding: 0 10px 0 10px;
     font-family: "JetBrains Mono Medium", monospace;
 }
 
+summary {
+    white-space: nowrap;
+}
+
 .project {
-    padding: 0;
+    padding: 10px 0 0;
     margin: 0;
 }
 
