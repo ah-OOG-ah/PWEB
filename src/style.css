@@ -12,6 +12,10 @@
         url("fonts/FiraSans/FiraSans-Medium.ttf") format("ttf");
 }
 
+#name {
+    padding-right: 10px;
+}
+
 .navbutton {
     display: inline-block;
     margin-left: 0.5vh;
@@ -36,9 +40,9 @@
 }
 
 #topbar {
-    display: block flex;
+    display: flex;
     flex-direction: row;
-    align-content: center;
+    align-content: space-between;
     height: 10vh;
 
 }
