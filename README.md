@@ -2,4 +2,7 @@
 This implements the requirements for Team 3
 (forms and such) and Team 2 (formatting).
 
-Yes I forgot to do this earlier how could you tell?
+~~Yes I forgot to do this earlier how could you tell?~~
+
+### Personal web page
+This version made with a *little* more time and effort, it now has 
